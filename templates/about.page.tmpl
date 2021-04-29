@@ -7,6 +7,13 @@
             <h1>This is the About Page</h1>
             <p>Paragraf</p>
             <p>To pochodzi z szablonu: {{index .StringMap "test"}}</p>
+            <p>
+            {{if ne (index .StringMap "remote_ip") ""}}
+                Twój adres IP to {{index .StringMap "remote_ip"}}
+            {{else}}
+                Nie znam jeszcze twojego adresu. Odwiedź <a href="/">Stronę domową</a>.
+            {{end}}
+            </p>
         </div>
     </div>
 </div>
