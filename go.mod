@@ -1,4 +1,4 @@
-module github.com/kjuchniewicz/go-web
+module github.com/kjuchniewicz/go-web-app
 
 go 1.16
 

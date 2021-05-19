@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/kjuchniewicz/go-web/models"
-	"github.com/kjuchniewicz/go-web/pkg/config"
-	"github.com/kjuchniewicz/go-web/pkg/render"
+	"github.com/kjuchniewicz/go-web-app/models"
+	"github.com/kjuchniewicz/go-web-app/pkg/config"
+	"github.com/kjuchniewicz/go-web-app/pkg/render"
 )
 
 // Repo repozytorium używane przez programy obsługi

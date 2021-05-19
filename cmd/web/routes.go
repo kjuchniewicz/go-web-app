@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/kjuchniewicz/go-web/pkg/config"
-	"github.com/kjuchniewicz/go-web/pkg/handlers"
+	"github.com/kjuchniewicz/go-web-app/pkg/config"
+	"github.com/kjuchniewicz/go-web-app/pkg/handlers"
 )
 
 // routes to router
