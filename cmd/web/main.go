@@ -12,7 +12,7 @@ import (
 	"github.com/kjuchniewicz/go-web-app/pkg/render"
 )
 
-const portNumber = ":8080"
+const portNumber = ":8088"
 
 var app config.AppConfig
 var session *scs.SessionManager
